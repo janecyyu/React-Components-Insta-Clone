@@ -16,6 +16,8 @@
 }
 .image-wrapper {
   height: 50px;
+  display: flex;
+  align-items: center;
 }
 
 .logo-image {
@@ -28,4 +30,17 @@
 
 .social {
   width: 50px;
+}
+
+.logo{
+  font-size: 50px;
+  padding-right: 20px;
+}
+
+.logo-text{
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
+  padding-left: 20px;
+  top: 0;
+  border-left: 1px solid black;
 }
